@@ -1,14 +1,14 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS
+title: Jíwěi Wáng
+description: Jíwěi Wáng's Blog.
 
-url: https://long-haul.netlify.app
+url: https://jiweiwong.github.io
 # Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
 baseurl: # Ex: /project-page
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
 # Header Option
-# header: large
+header: large
 
 sass:
     style: compressed
@@ -16,7 +16,7 @@ sass:
 markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate]
-paginate: 5
+paginate: 10
 
 navigation:
     - title: Home
@@ -27,15 +27,9 @@ navigation:
       url: /contact
 
 social:
-    github: brianmaierjr
-    twitter: brianmaierjr
-    facebook: brianmaierjr
-    email: brimaidesigns@gmail.com
-    linkedin: brianmaierjr
-    youtube: RickAstleyYT
-    tumblr: i-am-a-fish
+    github: JiweiWong
 
-google_analytics: "UA-58263416-1"
+#google_analytics: "UA-58263416-1"
 
 disqus:
-    shortname: brianmaierjr
+    shortname: Jiwei
